@@ -8,19 +8,21 @@
 
 ```
 .
-├── README.md           # 本文件
+├── README.md                    # 本文件
 └── insights/
-    └── YYYY-MM-DD.md   # 每天的产品心得
+    ├── ai-era-saas-opportunities.md           # AI 时代 SaaS 的机会
+    ├── personal-saas-automation-architecture.md # 个人 SaaS 出海群站自动化架构
+    └── financial-literacy-education-product-design.md # 财商教育产品设计
 ```
 
 ---
 
 ## 提交规范
 
-每天结束后，用简短的 commit message 提交：
+添加或更新心得后，用简短的 commit message 提交：
 ```
 git add .
-git commit -m "2026-03-04: AI时代SaaS的机会"
+git commit -m "Add: 标题"
 ```
 
 ---
